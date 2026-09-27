@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SkyPort Airport</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<main>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="header">
+
+
+        <!-- Logo -->
+
+        <div class="logo">
+
+            <span class="logo-icon">✈</span>
+
+            <span>SkyPort</span>
+
+        </div>
+
+
+        <!-- Location -->
+
+        <div class="location">
+
+            <span class="location-icon">📍</span>
+
+            <div>
+
+                <small>Airport Location</small>
+
+                <strong>Bhopal, India</strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- Search -->
+
+        <div class="search-box">
+
+            <select>
+
+                <option>All</option>
+
+                <option>Flights</option>
+
+                <option>Destinations</option>
+
+                <option>Airports</option>
+
+            </select>
+
+
+            <input
+                type="text"
+                placeholder="Search flights, destinations..."
+            >
+
+
+            <button>🔍</button>
+
+        </div>
+
+
+        <!-- Flight Info -->
+
+        <div class="flight-info">
+
+            <div class="flight-icon">
+                ✈
+            </div>
+
+            <div>
+
+                <strong>AI-202</strong>
+
+                <small>On Time</small>
+
+            </div>
+
+        </div>
+
+
+        <!-- Admin -->
+
+        <div class="admin">
+
+            <div class="admin-icon">
+                👤
+            </div>
+
+            <div>
+
+                <small>Hello, Admin</small>
+
+                <strong>My Account</strong>
+
+            </div>
+
+        </div>
+
+
+    </header>
+
+
+
+    <!-- =========================
+         NAVIGATION BAR
+    ========================== -->
+
+    <nav class="navbar">
+
+
+        <div class="nav-left">
+
+            <a href="#" class="all-menu">
+                ☰ All
+            </a>
+
+            <a href="#">
+                Home
+            </a>
+
+            <a href="#">
+                Flights
+            </a>
+
+            <a href="#">
+                Arrivals
+            </a>
+
+            <a href="#">
+                Departures
+            </a>
+
+            <a href="#">
+                Gates
+            </a>
+
+            <a href="#">
+                Airport Services
+            </a>
+
+        </div>
+
+
+        <a href="#" class="flight-status">
+            Flight Status →
+        </a>
+
+
+    </nav>
+
+    
+<!-- =========================
+     FLIGHT SEARCH
+========================= -->
+
+<section class="flight-search">
+
+    <!-- Background Images -->
+
+    <div class="background-slider">
+        <div class="slide slide-1"></div>
+        <div class="slide slide-2"></div>
+        <div class="slide slide-3"></div>
+        <div class="slide slide-4"></div>
+        <div class="slide slide-5"></div>
+        <div class="slide slide-6"></div>
+    </div>
+
+
+    <!-- Dark Overlay -->
+
+    <div class="slider-overlay"></div>
+
+
+    <!-- Content -->
+
+    <div class="flight-search-content">
+
+        <div class="search-heading">
+
+            <h1>Where would you like to go?</h1>
+
+            <p>
+                Search and explore flights from Bhopal
+            </p>
+
+        </div>
+
+
+        <div class="search-panel">
+
+
+            <!-- From -->
+
+            <div class="search-field">
+
+                <span class="field-icon">🛫</span>
+
+                <div>
+
+                    <small>FROM</small>
+
+                    <strong>Bhopal (BHO)</strong>
+
+                    <p>Raja Bhoj Airport</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Swap -->
+
+            <button class="swap-button">
+                ⇄
+            </button>
+
+
+            <!-- To -->
+
+            <div class="search-field">
+
+                <span class="field-icon">🛬</span>
+
+                <div>
+
+                    <small>TO</small>
+
+                    <strong>Delhi (DEL)</strong>
+
+                    <p>Indira Gandhi Airport</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Date -->
+
+            <div class="search-field">
+
+                <span class="field-icon">📅</span>
+
+                <div>
+
+                    <small>DEPARTURE</small>
+
+                    <strong>15 Oct 2026</strong>
+
+                    <p>Thursday</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Passenger -->
+
+            <div class="search-field">
+
+                <span class="field-icon">👤</span>
+
+                <div>
+
+                    <small>PASSENGERS</small>
+
+                    <strong>1 Passenger</strong>
+
+                    <p>Economy Class</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Search -->
+
+            <button class="search-flight-btn">
+                Search Flights
+            </button>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     AIRPORT STATUS
+========================= -->
+<section class="airport-status">
+    <div class="status-item">
+        <span class="status-dot"></span>
+        <div><small>Airport Status</small><strong>Operating Normally</strong></div>
+    </div>
+    <div class="status-divider"></div>
+    <div class="status-item"><span class="status-icon">✈</span><div><small>Flights Today</small><strong>126 Scheduled</strong></div></div>
+    <div class="status-divider"></div>
+    <div class="status-item"><span class="status-icon">◷</span><div><small>Average Delay</small><strong>12 Minutes</strong></div></div>
+    <div class="status-divider"></div>
+    <div class="status-item"><span class="status-icon">🚗</span><div><small>Parking</small><strong>Available</strong></div></div>
+</section>
+
+<!-- =========================
+     AIRPORT SERVICES
+========================= -->
+<section class="airport-services">
+    <div class="section-heading">
+        <span>TRAVEL WITH EASE</span>
+        <h2>Airport Services</h2>
+        <p>Everything you need for a smooth airport experience.</p>
+    </div>
+
+    <div class="service-grid">
+        <a href="#" class="service-card"><span class="service-icon">🧳</span><div><h3>Baggage</h3><p>Check baggage rules and assistance.</p></div><b>→</b></a>
+        <a href="#" class="service-card"><span class="service-icon">🛂</span><div><h3>Check-in</h3><p>Prepare for a quick airport check-in.</p></div><b>→</b></a>
+        <a href="#" class="service-card"><span class="service-icon">🅿️</span><div><h3>Parking</h3><p>Find convenient airport parking.</p></div><b>→</b></a>
+        <a href="#" class="service-card"><span class="service-icon">🍽️</span><div><h3>Dining</h3><p>Explore food and refreshments.</p></div><b>→</b></a>
+        <a href="#" class="service-card"><span class="service-icon">🛋️</span><div><h3>Lounges</h3><p>Relax before your flight.</p></div><b>→</b></a>
+        <a href="#" class="service-card"><span class="service-icon">♿</span><div><h3>Accessibility</h3><p>Support for accessible travel.</p></div><b>→</b></a>
+    </div>
+</section>
+
+<!-- =========================
+     TRAVEL INFORMATION
+========================= -->
+<section class="travel-info-section">
+    <div class="section-heading light">
+        <span>PLAN YOUR JOURNEY</span>
+        <h2>Travel Information</h2>
+        <p>Useful information before you arrive at the airport.</p>
+    </div>
+    <div class="info-grid">
+        <div class="info-card"><span>01</span><h3>Before You Fly</h3><p>Keep your ticket, identification and travel documents ready.</p><a href="#">Learn more →</a></div>
+        <div class="info-card"><span>02</span><h3>At the Airport</h3><p>Check your terminal, gate and baggage information before departure.</p><a href="#">Learn more →</a></div>
+        <div class="info-card"><span>03</span><h3>After Landing</h3><p>Find baggage claim, ground transport and airport assistance.</p><a href="#">Learn more →</a></div>
+    </div>
+</section>
+
+    <!-- =========================
+         FEATURED DESTINATIONS
+    ========================== -->
+
+    <section class="featured-destinations">
+
+
+        <!-- Heading -->
+
+        <div class="destination-title">
+
+            <span>
+                Featured destinations from
+            </span>
+
+            <strong>
+                Bhopal
+            </strong>
+
+            <span>
+                ⌄
+            </span>
+
+        </div>
+
+
+
+        <!-- Destination Cards -->
+
+        <div class="destination-cards">
+
+
+            <!-- =================
+                 arab
+            ================== -->
+
+            <div class="destination-card">
+
+
+                <img
+                    src="arab (2).jpg"
+                    alt="Arab"
+                >
+
+
+                <div class="destination-content">
+
+
+                    <p class="country">
+                       QATAR
+                    </p>
+
+
+                    <h2>
+                        Qatar
+                    </h2>
+
+
+                    <span>
+                        Book until 31 sep 2026
+                    </span>
+
+
+                    <small>
+                        Economy Class · Round Trip
+                    </small>
+
+
+                    <strong>
+                        from ₹25,999*
+                    </strong>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="destination-card">
+
+
+                <img
+                    src="japam.jpeg"
+                    alt="Japan"
+                >
+
+
+                <div class="destination-content">
+
+
+                    <p class="country">
+                       JAPAN
+                    </p>
+
+
+                    <h2>
+                        Japan
+                    </h2>
+
+
+                    <span>
+                        Book until 15 Oct 2026
+                    </span>
+
+
+                    <small>
+                        Economy Class · Round Trip
+                    </small>
+
+
+                    <strong>
+                        from ₹65,999*
+                    </strong>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="destination-card">
+
+
+                <img
+                    src="bihar.jpg"
+                    alt="Bihar"
+                >
+
+
+                <div class="destination-content">
+
+
+                    <p class="country">
+                        INDIA
+                    </p>
+
+
+                    <h2>
+                       Bihar
+                    </h2>
+
+
+                    <span>
+                        Book until 10 Oct 2026
+                    </span>
+
+
+                    <small>
+                        Economy Class · Round Trip
+                    </small>
+
+
+                    <strong>
+                        from ₹95,999*
+                    </strong>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="destination-card">
+
+
+                <img
+                    src="chaina.webp"
+                    alt="Chaina"
+                >
+
+
+                <div class="destination-content">
+
+
+                    <p class="country">
+                        CHINA
+                    </p>
+
+
+                    <h2>
+                        China
+                    </h2>
+
+
+                    <span>
+                        Book until 1 jan 2026
+                    </span>
+
+
+                    <small>
+                        Economy Class · Round Trip
+                    </small>
+
+
+                    <strong>
+                        from ₹74,999*
+                    </strong>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="destination-card">
+
+
+                <img
+                    src="india.webp"
+                    alt="India"
+                >
+
+
+                <div class="destination-content">
+
+
+                    <p class="country">
+                        INDIA
+                    </p>
+
+
+                    <h2>
+                        Delhi
+                    </h2>
+
+
+                    <span>
+                        Book until 1 dec 2026
+                    </span>
+
+
+                    <small>
+                        Economy Class · Round Trip
+                    </small>
+
+
+                    <strong>
+                        from ₹58,999*
+                    </strong>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="destination-card">
+
+
+                <img
+                    src="tokyo.jpeg"
+                    alt="Tokyo"
+                >
+
+
+                <div class="destination-content">
+
+
+                    <p class="country">
+                        JAPAN
+                    </p>
+
+
+                    <h2>
+                        Japan
+                    </h2>
+
+
+                    <span>
+                        Book until 25 may 2026
+                    </span>
+
+
+                    <small>
+                        Economy Class · Round Trip
+                    </small>
+
+
+                    <strong>
+                        from ₹85,999*
+                    </strong>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="destination-card">
+
+
+                <img
+                    src="main.webp"
+                    alt="Bhopal"
+                >
+
+
+                <div class="destination-content">
+
+
+                    <p class="country">
+                        INDIA
+                    </p>
+
+
+                    <h2>
+                        Bhopal
+                    </h2>
+
+
+                    <span>
+                        Book until 14 june 2026
+                    </span>
+
+
+                    <small>
+                        Economy Class · Round Trip
+                    </small>
+
+
+                    <strong>
+                        from ₹55,999*
+                    </strong>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================
+                 DUBAI
+            ================== -->
+
+            <div class="destination-card">
+
+
+                <img
+                    src="dubai.jpg"
+                    alt="Dubai"
+                >
+
+
+                <div class="destination-content">
+
+
+                    <p class="country">
+                        UNITED ARAB EMIRATES
+                    </p>
+
+
+                    <h2>
+                        Dubai
+                    </h2>
+
+
+                    <span>
+                        Book until 11 aprail 2026
+                    </span>
+
+
+                    <small>
+                        Economy Class · Round Trip
+                    </small>
+
+
+                    <strong>
+                        from ₹18,999*
+                    </strong>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================
+                 MUMBAI
+            ================== -->
+
+            <div class="destination-card">
+
+
+                
+                <img
+                    src="mumbai.png"
+                    alt="Mumbai"
+                >
+
+
+                <div class="destination-content">
+
+
+                    <p class="country">
+                        INDIA
+                    </p>
+
+
+                    <h2>
+                        Mumbai
+                    </h2>
+
+
+                    <span>
+                        Book until 17 july 2026
+                    </span>
+
+
+                    <small>
+                        Economy Class · Round Trip
+                    </small>
+
+
+                    <strong>
+                        from ₹7,999*
+                    </strong>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        
+
+
+    </section>
+
+</main>
+
+  <!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+
+        <!-- Company -->
+
+        <div class="footer-column">
+
+            <h3>✈ SkyPort</h3>
+
+            <p>
+                Your trusted airport management
+                and travel information platform.
+            </p>
+
+            <p>
+                📍 Bhopal, India
+            </p>
+
+        </div>
+
+
+        <!-- Airport -->
+
+        <div class="footer-column">
+
+            <h3>Airport</h3>
+
+            <a href="#">Flight Information</a>
+
+            <a href="#">Arrivals</a>
+
+            <a href="#">Departures</a>
+
+            <a href="#">Airport Gates</a>
+
+            <a href="#">Airport Services</a>
+
+        </div>
+
+
+        <!-- Travel -->
+
+        <div class="footer-column">
+
+            <h3>Travel</h3>
+
+            <a href="#">Destinations</a>
+
+            <a href="#">Book a Flight</a>
+
+            <a href="#">Travel Guide</a>
+
+            <a href="#">Baggage Information</a>
+
+            <a href="#">Travel Updates</a>
+
+        </div>
+
+
+        <!-- Support -->
+
+        <div class="footer-column">
+
+            <h3>Support</h3>
+
+            <a href="#">Help Center</a>
+
+            <a href="#">Contact Us</a>
+
+            <a href="#">FAQs</a>
+
+            <a href="#">Emergency</a>
+
+            <a href="#">Feedback</a>
+
+        </div>
+
+
+    </div>
+
+
+    
+
+
+    <!-- Footer Bottom -->
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 SkyPort Airport. All Rights Reserved.
+        </p>
+
+        <div>
+
+            <a href="#">Privacy Policy</a>
+
+            <a href="#">Terms & Conditions</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
